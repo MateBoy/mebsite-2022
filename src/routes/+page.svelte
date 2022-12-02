@@ -9,7 +9,7 @@
         <h1 class="headline">Hello, I'm MateBoy. I'm a <em>front end developer</em> based in Stockholm, <span class="swe">Sweden</span>.</h1>
 
         <p>
-        I have five years of experience working with HTML, CSS and JavaScript. When I'm not writing code, I enjoy <a href="https://last.fm/user/MeTRoD">listening to music</a>, <a href="https://www.discogs.com/user/MateBoy/collection">collecting vinyl records</a>, <a href="https://www.backloggd.com/u/MateBoy/">playing video games</a>, <a href="https://letterboxd.com/MateBoy/">and watching movies</a>.
+        I have five years of experience working with HTML, CSS and JavaScript. When I'm not writing code, I enjoy <a href="https://last.fm/user/theMateBoy">listening to music</a>, <a href="https://www.discogs.com/user/MateBoy/collection">collecting vinyl records</a>, <a href="https://www.backloggd.com/u/MateBoy/">playing video games</a>, <a href="https://letterboxd.com/MateBoy/">and watching movies</a>.
         </p>
         <p>
         Currently I work as a consultant at <a href="https://www.majority.com">MAJORITY</a>, via <a href="https://nexergroup.com">Nexer</a>.

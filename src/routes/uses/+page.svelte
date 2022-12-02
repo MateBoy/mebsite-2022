@@ -1,10 +1,10 @@
 <svelte:head>
 	<title>MateBoy | uses</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; font-src 'self'; img-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self'">
     <meta name="description" content="A page detailing what MateBoy uses as a web developer.">
 </svelte:head>
 
 <h1>/uses</h1>
+<span class="updated">Last updated: December 2nd, 2022</span>
 <p>A list of hardware and software I use in my day to day life as a web developer.</p>
 <p>More of these pages from other developers can be found <a href="https://uses.tech">here</a>.</p>
 <section class="uses-grid">
@@ -34,6 +34,7 @@
         <h3>Other software</h3>
         <ul class="uses-list">
             <li>Music: <a href="https://spotify.com">Spotify</a></li>
+            <li>Podcasts: <a href="https://overcast.fm">Overcast</a></li>
             <li>Note taking: <a href="https://obsidian.md">Obsidian</a></li>
             <li>Passwords: <a href="https://1password.com">1Password</a></li>
             <li>Learning: <a href="https://apps.ankiweb.net/">Anki</a></li>
@@ -104,5 +105,15 @@
         .uses + .uses {
             margin-top: 0;
         }
+    }
+
+    .updated {
+        background-color: rgba(0, 0, 0, .2);
+        border-radius: 5px;
+        padding: .4em .8em;
+        display: inline-block;
+        font-size: .8em;
+        margin: 1em 0 .5em;
+        color: #8c6fff;
     }
 </style>

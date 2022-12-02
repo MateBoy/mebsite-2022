@@ -3,7 +3,6 @@
         <nav class="nav">
             <a href="/" class="nav__link home">Home</a>
             <a href="/uses" class="nav__link">Uses</a>
-            <!-- <a class="nav__link" title="Digital Garden" href="https://mateboy.gitbook.io/knowledge-base/">🌱</a> -->
         </nav>
     </header>
     <main class="main">
