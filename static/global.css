@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'wotfard';
+	src: url('/fonts/wotfard-regular-webfont.eot');
+	src: url('/fonts/wotfard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/wotfard-regular-webfont.woff2') format('woff2'),
+		url('/fonts/wotfard-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'wotfard', system-ui, sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.6;
+	background-color: #0e0240;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+h1,
+h2,
+h3 {
+	color: #ff343c;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: #b197fc;
+}
+
+a:hover {
+    color: #d0bfff;
+}
+
+a:focus {
+    outline: 1px dashed rgba(255, 255, 255, 0.7);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.btn-reset {
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.btn-reset:focus {
+	outline: none;
+}
+
+.headline {
+	margin-top: 0;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+.headline em {
+	font-style: normal;
+	color: #ff343c;
+}
